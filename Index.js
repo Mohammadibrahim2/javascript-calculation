@@ -48,8 +48,8 @@ newArray.push({difference:division,
         console.log(min)
   
         max.forEach(m=>{
-            let top=document.getElementById('top')
-            let r=document.createElement('tr')
+            let top=document.getElementById('top');
+            let r=document.createElement('tr');
             r.innerHTML=`
             <td >${m.name}</td>
             <td>${m.score1}%</td>
