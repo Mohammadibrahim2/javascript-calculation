@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name":"Agility and Coordination",
+        "score19":64,
+        "score24":61
+    },
+    {
+        "id":2,
+        "name":"Hunting and Predatory Skills",
+        "score19":76,
+        "score24":70
+    },
+    {
+        "id":3,
+        "name":"Communication ",
+        "score19":60,
+        "score24":75
+    },
+    {
+        "id":4,
+        "name":"Adaptability ",
+        "score19":82,
+        "score24":63
+    },
+    {
+        "id":5,
+        "name":"Independence  ",
+        "score19":67,
+        "score24":78
+    },
+    {
+        "id":6,
+        "name":"Affection and Socialization ",
+        "score19":70,
+        "score24":84
+    },
+    {
+        "id":7,
+        "name":"Climbing ",
+        "score19":90,
+        "score24":95
+    }
+    ,{
+        "id":8,
+        "name":"Balance ",
+        "score19":88,
+        "score24":96
+    }
+    ,{
+        "id":9,
+        "name":"Senses ",
+        "score19":86,
+        "score24":90
+    },
+    {
+        "id":10,
+        "name":"Flexibility ",
+        "score19":75,
+        "score24":83
+    },
+    {
+        "id":11,
+        "name":"Problem-solving ",
+        "score19":67,
+        "score24":78
+    },
+    {
+        "id":12,
+        "name":"Stealth  ",
+        "score19":59,
+        "score24":72
+    }
+]
