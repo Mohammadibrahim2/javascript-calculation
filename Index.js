@@ -1,6 +1,6 @@
 
 
-const AllData=(category_id)=>{
+const AllData=()=>{
 
 	const url=`./skills.json`
     fetch(url)
@@ -34,15 +34,13 @@ newArray.push({difference:division,
     score1:element.score19,
     score2:element.score24})
 
- 
-
         });
         
-        console.log(newArray)
+        console.log(newArray);
         const max=newArray.sort(function(a, b){return b.difference-a.difference}).slice(0,3);
-        console.log(max)
+        console.log(max);
         const min=newArray.sort(function(a, b){return a.difference-b.difference}).slice(0,3);
-        console.log(min)
+        console.log(min);
   
         max.forEach(m=>{
             let top=document.getElementById('top');
@@ -59,7 +57,7 @@ newArray.push({difference:division,
 
 
         min.forEach(mi=>{
-            let bottom=document.getElementById('bottom')
+            let bottom=document.getElementById('bottom');
             let r=document.createElement('tr')
             r.innerHTML=`
             <td >${mi.name}</td>
@@ -75,6 +73,9 @@ newArray.push({difference:division,
 
     
 
+
+}
+AllData()
 // 	fetch(url).then((response) => {
 //   if (response.ok) {
 //     return response.json();
@@ -90,5 +91,3 @@ newArray.push({difference:division,
 	
 //   console.log(error)
 // })
-}
-AllData()
