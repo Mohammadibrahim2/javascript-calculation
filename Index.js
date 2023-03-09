@@ -1,9 +1,6 @@
-var x=12;
-var y=10;
-var z=x+y;
-console.log(z)
 
-const AllNews=(category_id)=>{
+
+const AllData=(category_id)=>{
 
 	const url=`./skills.json`
     fetch(url)
@@ -94,4 +91,4 @@ newArray.push({difference:division,
 //   console.log(error)
 // })
 }
-AllNews()
+AllData()
